@@ -5,16 +5,16 @@ public class ShapeTest {
         Rectangle rectangle = new Rectangle("white", true, 1.4, 22.5);
         Square square = new Square("red", true, 28.1, 9.4,1.2);
 
-        System.out.println("" + shape);
-        System.out.println("" + circle);
-        System.out.println("" + rectangle);
-        System.out.println("" + square);
+        System.out.println(shape);
+        System.out.println(circle);
+        System.out.println(rectangle);
+        System.out.println(square);
 
-        System.out.println("" + circle.getPerimeter());
-        System.out.println("" + circle.getArea());
+        System.out.println(circle.getPerimeter());
+        System.out.println(circle.getArea());
 
-        System.out.println("" + rectangle.getPerimeter());
-        System.out.println("" + rectangle.getArea());
+        System.out.println(rectangle.getPerimeter());
+        System.out.println(rectangle.getArea());
 
 
     }
